@@ -1,15 +1,16 @@
 # Importing the libraries.
-import os.path
+import os
 import re
 import numpy as np
 
 
+# getting the 
 # Setting the path of the train files
-train_path = "D:/code/pro/spam_detector/Spam Detector/train"
+train_path = ".\\train"
 
 
 # Setting the path of the test files
-test_path = "D:/code/pro/spam_detector/Spam Detector/test"
+test_path = ".\\test"
 
 
 "*** Returns the number of all emails (train files) ***"
@@ -17,7 +18,7 @@ test_path = "D:/code/pro/spam_detector/Spam Detector/test"
 
 def number_of_allEmails():
     counter = 0
-    for directories, subdirectories, files in os.walk("D:/code/pro/spam_detector/Spam Detector/train"):
+    for directories, subdirectories, files in os.walk(train_path):
         for filename in files:
             counter += 1
 

@@ -1,5 +1,9 @@
 ###########################################################################################################
-
+NAME - SAQUIB AKHTAR
+REG. NO. - 22030460043
+BRANCH - ECE 
+BATCH - 2022 - 2026
+PROJECT - SPAM EMAIL DETECTION
 EXECUTION STEPS:
 
 STEP 1 - Install NUMPY library
